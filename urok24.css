@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha|Philosopher');
+
+
+
+body{
+	font-family: 'Philosopher', sans-serif; display: flex;
+	background-image: url(background.jpg);
+	background-size: cover;
+}
+
+h1{
+	color: white;
+}
+*{
+	margin:0;
+	padding:0:
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.map{
+	background-image: url(poster.jpg);
+	width: 450px;
+	height: 675px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.vid{
+	top: 100px;
+}
+
+.pointer li{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border: 2px solid black;
+	transform: rotate(-45deg);
+	border-radius: 40% 40% 40% 10%;
+	background: linear-gradient(rgba(0,0,112,0.5), rgba(0,208, 255, 0.7));
+
+	
+
+
+}
+
+.pointer p{
+	transform: rotate(45deg);
+	width: 100px;
+	height: 70px;
+	text-align: center;
+	padding-top: 30px;
+
+}
+ .pointer a{
+	
+	color: #ffffcd;
+	
+}
+
+.pointer li:hover{
+	background-color: rgba(226, 172, 61, 0.8);
+	
+}
+
+.pointer li:hover a{
+	
+	color: #49402d;
+}
+
+#link1{
+	top:180px;
+	left: 165px;
+}
+
+#link2{
+	top: 0px;
+	left: 180px;
+}
+
+#link3{
+	top: 5px;
+	left: 50px;
+}
+
+#link4{
+	top: 0px;
+	left: 300px;
+}
+
+#link5{
+	top: 250px;
+	left: 30px;
+}
+
+#link6{
+	top: 280px;
+	right: 30px;
+}
+
+#link7{
+	top: 430px;
+	right: 165px;
+}
+
+
+
+.about li{
+	position: fixed;
+	width: 550px;
+	height: 550px;
+	border-radius: 50%;
+	background-color: rgba(250, 253, 102, 0.8);
+	bottom: -550px;
+	left: 50%;
+	margin-bottom: -275px;
+	margin-left: -275px;
+	color: #49402d;
+	font-size: 18pt;
+	opacity:0;
+	transform: scale(0.2);
+	transition: transform 1s ease, opacity 1s ease;
+	box-shadow: 4px 4px 10px 2px black;
+
+
+}
+
+.about a{
+	float: right;
+	width: 62px;
+	height: 62px;
+	border-radius: 50%;
+	background-color: black;
+	text-decoration: none;
+	color: #ffffcd;
+	font-size: 20pt;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.about p{
+	padding: 100px;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+}
+
+#link1_about:target{
+	opacity: 1;
+	transform: scale(1);
+	bottom: 50%;
+}
+#link2_about:target{
+	opacity: 1;
+	transform: scale(1);
+	bottom: 50%;
+}
+#link3_about:target{
+	opacity: 1;
+	transform: scale(1);
+	bottom: 50%;
+}
+#link4_about:target{
+	opacity: 1;
+	transform: scale(1);
+	bottom: 50%;
+}
+#link5_about:target{
+	opacity: 1;
+	transform: scale(1);
+	bottom: 50%;
+}
+#link6_about:target{
+	opacity: 1;
+	transform: scale(1);
+	bottom: 50%;
+}
+#link7_about:target{
+	opacity: 1;
+	transform: scale(1);
+	bottom: 50%;
+}
+
+
+#link1_about{
+	background-image: url(tanjiro.jpg);
+	background-size: cover;
+}
+
+#link1_about p{
+	opacity: 0;
+	color: black;
+}
+
+#link1_about:hover p{
+	background-color: rgba(250, 253, 102, 0.5);
+	opacity: 1;
+	
+}
+
+#link2_about{
+	background-image: url(nezuko.jpg);
+	background-size: cover;
+}
+
+#link2_about p{
+	opacity: 0;
+	color: black;
+}
+
+#link2_about:hover p{
+	background-color: rgba(250, 253, 102, 0.5);
+	opacity: 1;
+	
+}
+
+#link3_about{
+	background-image: url(rengoku.jpg);
+	background-size: cover;
+}
+
+#link3_about p{
+	opacity: 0;
+	color: black;
+}
+
+#link3_about:hover p{
+	background-color: rgba(250, 253, 102, 0.5);
+	opacity: 1;
+	
+}
+
+#link4_about{
+	background-image: url(Enmu.png);
+	background-size: cover;
+}
+
+#link4_about p{
+	opacity: 0;
+	color: black;
+}
+
+#link4_about:hover p{
+	background-color: rgba(250, 253, 102, 0.5);
+	opacity: 1;
+	
+}
+
+#link5_about{
+	background-image: url(zenitsu.jpg);
+	background-size: cover;
+}
+
+#link5_about p{
+	opacity: 0;
+	color: black;
+}
+
+#link5_about:hover p{
+	background-color: rgba(250, 253, 102, 0.5);
+	opacity: 1;
+	
+}
+
+#link6_about{
+	background-image: url(Inosuke.jpg);
+	background-size: cover;
+}
+
+#link6_about p{
+	opacity: 0;
+	color: black;
+}
+
+#link6_about:hover p{
+	background-color: rgba(250, 253, 102, 0.5);
+	opacity: 1;
+	
+}
+
+#link7_about{
+	background-image: url(train.jpg);
+	background-size: cover;
+}
+
+#link7_about p{
+	opacity: 0;
+	color: black;
+}
+
+#link7_about:hover p{
+	background-color: rgba(250, 253, 102, 0.5);
+	opacity: 1;
+	
+}
